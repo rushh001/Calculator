@@ -374,57 +374,5 @@ textview1.setText(""+calc());
 }
 
 
-//public String next()
-//{String s=inp_1.toString();
-//    int ip=s.lastIndexOf('+');
-//    int is=s.lastIndexOf('-');
-//    int im=s.lastIndexOf('x');
-//    int id=s.lastIndexOf('/');
-//    int imo=s.lastIndexOf('%');
-//    String s_ip=s.substring(ip+1);
-//    String s_is=s.substring(is+1);
-//    String s_im=s.substring(im+1);
-//    String s_id=s.substring(id+1);
-//    String s_imo=s.substring(imo+1);
-//
-//    return " ";
-
-//    }
-//    void assignId(Button btn, int id){
-//        btn=findViewById(id);
-//        btn.setOnClickListener(this);
-//    }
-//    @Override
-//    public void onClick(View view)
-//    {Button btn=(Button)view;
-//        String btn_txt=btn.getText().toString();
-//        textView.setText(btn_txt);
-//    }
-//
-//
-//
-
-////        assignId(button1,R.id.Button1);
-////        assignId(button2,R.id.Button2);
-////        assignId(button3,R.id.Button3);
-////        assignId(button4,R.id.Button4);
-////        assignId(button5,R.id.Button5);
-////        assignId(button6,R.id.Button6);
-////        assignId(button7,R.id.Button7);
-////        assignId(button8,R.id.Button8);
-////        assignId(button9,R.id.Button9);
-////        assignId(button10,R.id.Button10);
-////        assignId(button11,R.id.Button11);
-////        assignId(button12,R.id.Button12);
-////        assignId(button13,R.id.Button13);
-////        assignId(button14,R.id.Button14);
-////        assignId(button15,R.id.Button15);
-////        assignId(button16,R.id.Button16);
-////        assignId(button17,R.id.Button17);
-////        assignId(button18,R.id.Button18);
-////        assignId(button19,R.id.Button19);
-////        assignId(button20,R.id.Button20);
-
-
 
 
