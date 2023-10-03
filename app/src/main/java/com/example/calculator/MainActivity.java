@@ -193,7 +193,7 @@ public String next() {
         textview2.setText(""+calc());
         answer.push(ans);
         revcalc();
-       textview2.setText(""+answer);
+       
     }
 
     public void get_5(View view) {
