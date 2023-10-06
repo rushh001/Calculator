@@ -52,16 +52,19 @@ public class MainActivity extends AppCompatActivity {
         button20 = findViewById(R.id.Button20);
 
     }
-    public int operator_check()
-    {
-        char last= inp_1.charAt(inp_1.length()-1);
-        if(last=='+'||last=='-'||last=='x'||last=='/'||last=='%'||last=='.')
-        {
-            Toast.makeText(this, "Error: Not Allowed" , Toast.LENGTH_SHORT).show();
-        return 1;
-        }
-            else
+    public int operator_check() {
+        if (inp_1.length() != 0) {
+            char last = inp_1.charAt(inp_1.length() - 1);
+            if (last == '+' || last == '-' || last == 'x' || last == '/' || last == '%' || last == '.') {
+                Toast.makeText(this, "Error: Not Allowed", Toast.LENGTH_SHORT).show();
+                return 1;
+            } else
                 return 0;
+        }
+    else {
+             Toast.makeText(this,"Enter numbers",Toast.LENGTH_SHORT).show();
+             return 1;
+        }
     }
     public String previous() {
         if (inp_1.length() != 0) {
@@ -193,7 +196,7 @@ public String next() {
         textview2.setText(""+calc());
         answer.push(ans);
         revcalc();
-       
+
     }
 
     public void get_5(View view) {
@@ -263,6 +266,7 @@ public String next() {
         //textview2.setText(""+calc());
     }
     public void get_mod(View view) {
+
 if(operator_check()==0)
 {
     inp_1.append("%");
